@@ -530,3 +530,40 @@ img {
 .contacts-nav .contacts:hover {
   color: #2196f3;
 }
+
+/* Футер */
+.footer {
+  margin-left: 70px;
+}
+.footer-text {
+  color: #ffffff;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.footer-icon {
+  display: flex;
+  align-items: center;
+}
+.footer-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.footer-item:last-child {
+  margin-right: 0;
+}
+.icon-social {
+  fill: #ffffff;
+}
+.footer-item:hover {
+  background-color: #2196f3;
+}
+.general {
+  display: flex;
+}
