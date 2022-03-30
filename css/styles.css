@@ -199,7 +199,7 @@ img {
   margin-right: 30px;
 }
 
-.benefits-item::before {
+/* .benefits-item::before {
   content: '';
   display: block;
   height: 120px;
@@ -220,7 +220,7 @@ img {
 }
 .benefits-item.astronaut::before {
   background-image: url(../images/icons/astronaut.svg);
-}
+} */
 
 /* Галерея */
 .gallery {
@@ -411,4 +411,45 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+/* ICONS */
+
+.social-item {
+  margin-bottom: 30px;
+}
+.social-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  height: 44px;
+  width: 44px;
+  /* margin-bottom: 30px;
+  margin-right: 10px; */
+}
+/* .social-link:last-child {
+  margin-right: 0;
+} */
+
+.social-link:hover,
+.social-link:focus {
+  background-color: #2196f3;
+}
+
+.social-icon {
+  fill: #afb1b8;
+}
+.social-link:hover .social-icon,
+.social-link:focus .social-icon {
+  fill: #ffffff;
 }
