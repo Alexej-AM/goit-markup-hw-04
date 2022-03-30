@@ -73,6 +73,8 @@ img {
 .contacts-nav {
   display: flex;
   margin-left: auto;
+  align-items: center;
+  justify-content: center;
 }
 .contacts-nav .contacts {
   padding-top: 32px;
@@ -81,7 +83,7 @@ img {
 }
 
 .contacts-nav .item + .item {
-  margin-left: 50px;
+  margin-left: 30px;
 }
 
 .header-container {
@@ -512,4 +514,19 @@ img {
 .clients-item:hover .cliets-icon,
 .clients-item:focus .cliets-icon {
   fill: #2196f3;
+}
+/* Header icon */
+
+.contacts-nav .contacts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #757575;
+}
+.contacts-nav .header-icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+.contacts-nav .contacts:hover {
+  color: #2196f3;
 }
