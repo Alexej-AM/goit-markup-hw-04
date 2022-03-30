@@ -413,7 +413,7 @@ img {
   overflow: hidden;
 }
 
-/* ICONS */
+/* ICONS TEAM*/
 
 .social-item {
   margin-bottom: 30px;
@@ -452,4 +452,25 @@ img {
 .social-link:hover .social-icon,
 .social-link:focus .social-icon {
   fill: #ffffff;
+}
+
+/* ICONS benefits */
+.benefits-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.benefits-icon-item {
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+}
+.benefits-icon-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.benefits-icon-item:not(:last-child) {
+  margin-right: 30px;
 }
