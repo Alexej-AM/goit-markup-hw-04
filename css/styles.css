@@ -474,3 +474,42 @@ img {
 .benefits-icon-item:not(:last-child) {
   margin-right: 30px;
 }
+/* Постоянные клиенты */
+.cliets-title {
+  margin-bottom: 50px;
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.03em;
+  line-height: 1.2;
+  text-align: center;
+}
+.cliets-icon {
+  fill: #afb1b8;
+}
+.clients-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clients-item:not(:last-child) {
+  margin-right: 30px;
+}
+.clients-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+.clients-item:hover,
+.clients-item:focus {
+  border: 1px solid #2196f3;
+}
+
+.clients-item:hover .cliets-icon,
+.clients-item:focus .cliets-icon {
+  fill: #2196f3;
+}
