@@ -98,9 +98,8 @@ img {
   align-items: center;
 }
 
-.benefits-main {
-  display: flex;
-}
+
+
 
 .logo {
   margin-right: 93px;
@@ -181,6 +180,10 @@ img {
 }
 
 /* Преимущества */
+.benefits-main {
+  display: flex;
+}
+
 .benefits-title {
   color: var(--primary-color);
   font-weight: 700;
@@ -319,6 +322,8 @@ img {
 
 /* Портфолио */
 
+
+
 /* Герой */
 .port-list {
   display: flex;
@@ -397,6 +402,17 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.product-link {
+  display: block;
+  text-decoration: none;
+}
+
+.product-link:hover,
+.product-link:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+    0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 
 /* ICONS TEAM*/
 
@@ -418,8 +434,7 @@ img {
   border-radius: 50%;
   height: 44px;
   width: 44px;
-  /* margin-bottom: 30px;
-  margin-right: 10px; */
+  
 }
 /* .social-link:last-child {
   margin-right: 0;
@@ -451,26 +466,7 @@ img {
 
 
 
-/* ICONS benefits
-.benefits-icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.benefits-icon-item {
-  width: 270px;
-  height: 120px;
-  background-color: #f5f4fa;
-}
-.benefits-icon-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 30px;
-}
-.benefits-icon-item:not(:last-child) {
-  margin-right: 30px;
-} */
+
 /* Постоянные клиенты */
 .cliets-title {
   margin-bottom: 50px;
@@ -516,15 +512,6 @@ img {
   height: 92px;
   
 }
-/* .clients-item:hover,
-.clients-item:focus {
-  border: 1px solid #2196f3;
-} */
-
-/* .clients-item:hover .cliets-icon,
-.clients-item:focus .cliets-icon {
-  fill: #2196f3;
-} */
 
 
 /* Header icon */
@@ -584,20 +571,15 @@ height: 100%;
   background-color: #2196f3;
 }
 
-/* .footer-item:hover {
-  background-color: #2196f3;
-} */
+
 .general {
   display: flex;
   align-items: baseline;
 }
-.product-link{
-  display: block;
-  text-decoration: none;
+.portfolio {
+  color: #2196f3;
 }
-.product-link:hover,
-.product-link:focus{
-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
-0px 4px 4px rgba(0, 0, 0, 0.06),
-1px 4px 6px rgba(0, 0, 0, 0.16);
+
+.studio {
+  color: #2196f3;
 }
