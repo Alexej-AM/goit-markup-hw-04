@@ -150,9 +150,9 @@ img {
     url(../images/hero.jpg);
 
   background-color: #2f303a;
-  background-position: ;
-  background-repeat: no-repeat;
-  background-size: auto auto;;
+  
+background-repeat: no-repeat;
+  background-size: contain;
   background-position: 50% 50%;
   text-align: center;
   padding-top: 200px;
